@@ -1,0 +1,35 @@
+*{
+    color: #001e1d;
+}
+
+html{
+    /* tip para trabajar con rem */
+    font-size: 62.5%;
+    background-color: #004643;
+}
+
+body{
+    /* tip para trabajar con rem */
+    font-size: 16px;
+    background-color: #fffffe;
+}
+
+
+.titulo{
+    text-align: center;
+    font-size: 4rem;
+    
+}
+
+.titulo span{
+    font-size: 2rem;
+    border-top: 3px solid black;
+    border-top-left-radius: 0%;
+    border-right: 3px solid black;
+    border-top-right-radius: 25%;
+    padding: 3px 3px 0 0 ;
+}
+
+p{
+    background-color: #abd1c6;
+}
