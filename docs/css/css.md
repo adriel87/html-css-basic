@@ -154,3 +154,10 @@ pero para poder usarla debemos
 y luego tendremos que indicar en nuestro css que vamos a usarla
 
 [google fonts](https://fonts.google.com/?query=mono)
+
+
+#### normalizando nuestras webs
+
+Es posible que nuestra webs se vean diferentes segun el navegador con el cual veamos la pagina, esto es por que los navegadores utilizan una serie de normas por defecto que las aniade a nuestro html
+
+para evitar que esto pase y asegurarnos que nuestra pagina se vea igual en todos los navegadores, podemos ayudarnos del CSS. Para esto ya existen soluciones como [normalize](http://necolas.github.io/normalize.css/)
