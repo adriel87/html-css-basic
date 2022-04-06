@@ -14,8 +14,8 @@
 
     /* fonts */
 
-    --primary-font:3.6rem;
-    --secondary-font:2rem;
+    --primary-font:5rem;
+    --secondary-font:3.6rem;
     --tertiary-font:1.2rem;
 
 }
@@ -62,13 +62,18 @@ p{
 /* NAVEGACION */
 
 .navigation-principal{
-    /* background-color: var(--background); */
-    /* display: block; */
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--secondary-font);
+    
 }
 
 .navigation-principal a{
     color: var(--headline);
     background-color: var(--higlight);
+    text-decoration: none;
+    
     
 }
 
