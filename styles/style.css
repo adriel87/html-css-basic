@@ -1,3 +1,26 @@
+:root{
+    /* palette */
+    --background:#004643;
+    --headline:#fffffe;
+    --paragraph:#abd1c6;
+    --button:#f9bc60;
+    --button-text:#001e1d;
+
+    --stroke:#001e1d;
+    --main:#e8e4e6;
+    --higlight:#f9bc60;
+    --secondary:#abd1c6;
+    --tertiary:#e16162;
+
+    /* fonts */
+
+    --primary-font:3.6rem;
+    --secondary-font:2rem;
+    --tertiary-font:1.2rem;
+
+}
+
+
 *{
     color: #001e1d;
 }
@@ -5,24 +28,24 @@
 html{
     /* tip para trabajar con rem */
     font-size: 62.5%;
-    background-color: #004643;
+    background-color: var(--background);
 }
 
 body{
     /* tip para trabajar con rem */
     font-size: 16px;
-    background-color: #fffffe;
+    background-color: var(--headline);
 }
 
 
 .titulo{
     text-align: center;
-    font-size: 4rem;
+    font-size: var(--primary-font);
     
 }
 
 .titulo span{
-    font-size: 2rem;
+    font-size: var(--secondary-font);
     border-top: 3px solid black;
     border-top-left-radius: 0%;
     border-right: 3px solid black;
@@ -32,5 +55,5 @@ body{
 
 p{
     background-color: #abd1c6;
-    color: rgb(50, 20, 0);
+    
 }
