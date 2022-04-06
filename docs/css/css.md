@@ -106,7 +106,10 @@ article > p{
 }
 ```
 
-para 
+##### especificidad
+
+en resumen es como nosotros apuntamos exactamente al objeto que queremos modificar y su orden en el css
+
 
 ### tips
 
@@ -123,3 +126,31 @@ body{
     font-size: 16px;
 }
 ```
+
+
+#### fuentas
+
+
+para cambiar la fuente de nuestra pagina web podemos usar la propiedad de `font-family`
+
+pero para poder usarla debemos 
+1. importarla haciendo referencia a la nueva fuente desde nuestro head
+```html
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- importar fuentes, en este caso googlefonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <!--  -->
+    <link rel="preload" href="./styles/style.css" as="style">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>probando</title>
+</head>
+```
+
+y luego tendremos que indicar en nuestro css que vamos a usarla
+
+[google fonts](https://fonts.google.com/?query=mono)

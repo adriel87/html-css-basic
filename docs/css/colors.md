@@ -24,7 +24,7 @@ article{
 ```
 
 - ***rgb()***
-esto es una funcion de CSS a la que le pasamos los parametros red, green, blue en forma de numeros entre el 0 y el 255
+esto es una funcion de CSS a la que le pasamos los parametros red, green, blue en forma de numeros entre el 0 y el 255. tambien tenemos `rgba()` para usar tranparencias
 
 ```css
 
@@ -34,4 +34,7 @@ p{
 }
 
 ```
+
+- ***hsl***
+<!-- TODO -->
 
