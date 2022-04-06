@@ -58,3 +58,27 @@ p{
     background-color: #abd1c6;
     
 }
+
+/* NAVEGACION */
+
+.navigation-principal{
+    /* background-color: var(--background); */
+    /* display: block; */
+}
+
+.navigation-principal a{
+    color: var(--headline);
+    background-color: var(--higlight);
+    
+}
+
+.nav-bg{
+    background-color: var(--background);
+}
+
+
+.container{
+    width: 120rem;
+    margin: 0 auto;
+    
+}

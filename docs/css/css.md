@@ -161,3 +161,15 @@ y luego tendremos que indicar en nuestro css que vamos a usarla
 Es posible que nuestra webs se vean diferentes segun el navegador con el cual veamos la pagina, esto es por que los navegadores utilizan una serie de normas por defecto que las aniade a nuestro html
 
 para evitar que esto pase y asegurarnos que nuestra pagina se vea igual en todos los navegadores, podemos ayudarnos del CSS. Para esto ya existen soluciones como [normalize](http://necolas.github.io/normalize.css/)
+
+#### Agregando clases
+
+Normalmente a la hora de estilar como uso comun le damos 1 o mas clases a nuestras etiquetas
+
+para ello simplemente separa las clases con un espacio dentro del atributo `class`
+
+ejemplo
+```html
+<p class="primario border25">laksjdlkasjdlkas</p>
+```
+como vemos tenemos 2 clases en el mismo parrafo
