@@ -54,19 +54,30 @@ body{
     padding: 3px 3px 0 0 ;
 }
 
-p{
-    background-color: #abd1c6;
-    
-}
+
 
 /* NAVEGACION */
 
 .navigation-principal{
     /* padding: 2rem; */
     display: flex;
-    justify-content: space-between;
-    
-    
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+@media (min-width: 480px){
+    .navigation-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 768px){
+    .navigation-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 .navigation-principal a{
@@ -88,7 +99,45 @@ p{
 
 
 .container{
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
+    
+}
+
+
+
+/* landing zone */
+
+
+.landing{
+    background-image: url('../assets/green-flow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-container h2{
+    color: var(--headline);
+    text-align: center;
+    padding-top: 3rem;
+}
+
+@media (min-width: 1280px){
+    .landing-container h2{
+        font-size: 4rem;
+    }   
+}
+
+.landing-container p{
+    color: var(--headline);
+}
+
+.landing-container p svg{
+    background-color: transparent;
     
 }
