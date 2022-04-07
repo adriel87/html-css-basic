@@ -63,3 +63,8 @@ podemos hacer que el hijo tome todo el espacio que ocupa el padre de forma absol
     heigth:100%:    
 }
 ```
+
+este ultimo tip podemos usarlo como si fuera un tipo de filtro
+
+es decir que el hijo ocupe todo el espacion que tiene el padre y aplicarle un color con un alto nivel de transparencia
+

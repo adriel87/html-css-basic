@@ -30,7 +30,7 @@
     box-sizing: inherit;
   }
   
-
+/* general */
 html{
     /* tip para trabajar con rem */
     font-size: 62.5%;
@@ -41,17 +41,102 @@ html{
 body{
     /* tip para trabajar con rem */
     font-size: 16px;
-    background-color: var(--headline);
-}
-
-
-.titulo{
-    text-align: center;
-    font-size: var(--primary-font);
+    background-color: var(--background);
+    color: var(--headline);
     
 }
 
-.titulo span{
+main{
+    background-color: var(--background);
+    color:  var(--headline);
+    margin: 0.5rem;
+}
+
+footer{
+    color: var(--main);
+    margin: 0.5rem;
+}
+
+h1{
+color: var(--headline);
+}
+h2{
+color: var(--headline);
+}
+h3{
+  color: var(--headline);  
+}
+p{
+    color: var(--headline);
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    background-color: var(--background);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* titulo */
+
+.titulo-header{
+    background-image: url('../assets/zoro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    position: relative;
+    
+}
+
+@media (min-width: 768px){
+    .titulo-header{
+        min-height: 40rem;
+    }
+    
+}
+@media (min-width: 1280px){
+    .titulo-header{
+        min-height: 65rem;
+    }
+}
+
+
+.titulo-header p span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: absolute;
+    color: var(--main);
+    top: 8.5rem;
+    left: 14rem;
+}
+
+@media (min-width: 768px){
+    .titulo-header p span{
+        top: 7rem;
+        left: 40rem;
+    }
+}
+
+
+.titulo-h1{
+    text-align: center;
+    font-size: var(--secondary-font);
+    position: absolute;
+    left: 1rem;
+    text-align: left;
+}
+
+@media (min-width: 768px){
+    .titulo-h1{
+        font-size: var(--primary-font);
+    }
+}
+
+.titulo-h1 span{
     font-size: var(--secondary-font);
     border-top: 3px solid black;
     border-top-left-radius: 0%;
@@ -107,7 +192,6 @@ body{
 .container{
     max-width: 120rem;
     margin: 0 auto;
-    
 }
 
 
@@ -147,4 +231,19 @@ body{
 .landing-container p svg{
     background-color: transparent;
     
+}
+
+.landing-container a{
+    color: var(--main);
+    font-weight: 700;
+    border: 2px solid var(--button);
+    border-radius: 8%;
+    padding: 1rem;
+    transition: background-color 0.6s, color 0.6s;
+
+}
+
+.landing-container a:hover{
+    background-color: var(--higlight);
+    color: var(--button-text);
 }
