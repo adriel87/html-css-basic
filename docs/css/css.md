@@ -173,3 +173,52 @@ ejemplo
 <p class="primario border25">laksjdlkasjdlkas</p>
 ```
 como vemos tenemos 2 clases en el mismo parrafo
+
+### estilos para escribir css
+
+#### - BEM
+primero definimos los estilos del padre y luego vamos profundizando
+
+```css
+.ejemplo{
+    /* definimos primero */
+}
+.ejemplo__titulo{
+    ...
+}
+.ejemplo__imagen{
+    ...
+}
+.ejemplo__imagen--opacada{
+    ...
+}
+```
+#### - utility first
+crearemos clases con una sola propiedad y luego en funcion de su necesidad la vamos usando
+
+```css
+.text-center{
+    ....
+}
+.color-red-100{
+    ...
+}
+```
+```html
+
+<div class="text-center color-red-100">
+    ...
+</div>
+
+```
+
+#### - modulos
+
+con los modulos elegimos clase y luego vamos definiendo los estilos de las etiquetas o clase de su interior
+
+```css
+.home {}
+.home h1{}
+.home img{}
+```
+
