@@ -105,6 +105,21 @@ article > p{
     /* tu codigo aqui */
 }
 ```
+###### operadores
+
+- and ➡️ `,` 
+
+para agregar el mismo estilo a varios componentes utilizamos una coma separando los componentes que van a tener el mismo estilo
+
+
+```css
+
+p, h2, h3, section h1{
+    color: blue;
+}
+
+```
+
 
 ##### especificidad
 
