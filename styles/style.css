@@ -62,19 +62,24 @@ p{
 /* NAVEGACION */
 
 .navigation-principal{
-    padding: 2rem;
+    /* padding: 2rem; */
     display: flex;
     justify-content: space-between;
-    font-size: var(--secondary-font);
+    
     
 }
 
 .navigation-principal a{
+    padding: 2rem;
+    text-decoration: none;
+    font-size: var(--secondary-font);
+    font-weight: bold;
+
+}
+
+.navigation-principal a:hover{
     color: var(--headline);
     background-color: var(--higlight);
-    text-decoration: none;
-    
-    
 }
 
 .nav-bg{
